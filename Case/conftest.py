@@ -3,9 +3,9 @@
 """
 import pytest
 from Interface.MemberInterface import MemberInterface
-from Interface.ReturnOrderInterface import ReturnOrderInterface
 from Utils.OperationData import OperationData
-
+from Interface.CartInterface import Cart
+from Interface.HomeInterface import HomeInterface
 
 # 1. 添加登录模块fixture
 # 实例化登录模块
@@ -77,3 +77,28 @@ def update_data(request):
     """
     return request.param  # 遍历数据并返回,逐个返回{}
 
+# 添加购物车模块fixture
+# 实例化购物车模块
+@pytest.fixture()
+def cart():
+    """
+    :return: 返回Cart实例化对象
+    """
+    return Cart()
+
+
+# 添加首页模块fixture
+# 实例化首页模块
+@pytest.fixture()
+def home():
+    """返回HomeInterface的实例化对象"""
+    return HomeInterface()
+
+
+# 获取首页列表测试数据
+subject_list = OperationData('subject_list.csv').get_data_dict()
+
+
+@pytest.fixture(params=subject_list)
+def subject_list_data(request):
+    return request.param
