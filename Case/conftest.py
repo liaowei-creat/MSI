@@ -6,7 +6,9 @@ from Interface.MemberInterface import MemberInterface
 from Utils.OperationData import OperationData
 from Interface.CartInterface import Cart
 from Interface.HomeInterface import HomeInterface
-
+from Interface.CollectionInterface import CollectonInterface
+from Interface.AttentionInterface import AttentionInterface
+from Interface.AddressInterface import AddressInterface
 # 1. 添加登录模块fixture
 # 实例化登录模块
 
@@ -102,3 +104,34 @@ subject_list = OperationData('subject_list.csv').get_data_to_dict()
 @pytest.fixture(params=subject_list)
 def subject_list_data(request):
     return request.param
+
+# 收货地址模块fixture
+# 实例化收货地址模块
+@pytest.fixture()
+def address():
+    """
+    :return: 返回AddressInterface实例化对象
+    """
+    return AddressInterface()
+
+# 用户收藏模块fixture
+# 实例化用户收藏模块
+@pytest.fixture()
+def collection():
+    """
+    :return: 返回AddressInterface实例化对象
+    """
+    return CollectonInterface()
+
+# 用户品牌关注模块fixture
+# 实例化用户品牌关注模块
+@pytest.fixture()
+def attention():
+    """
+    :return: 返回AddressInterface实例化对象
+    """
+    return AttentionInterface()
+
+
+
+
