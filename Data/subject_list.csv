@@ -1,0 +1,2 @@
+cateId,pageSize,pageNum,expected,comments
+2,4,1,200,分类获取专题_正确数据
