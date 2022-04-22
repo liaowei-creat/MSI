@@ -1,6 +1,7 @@
 """
-文件名: AddressInterface.py
-作用:录入收获地址接口
+文件名:AddressInterface.py
+    会员收货地址
+
 """
 
 from Utils.SendMethod import SendMethod
@@ -15,13 +16,57 @@ class AddressInterface:
 
     def add_address(self, payload):
         """
-        添加收获地址
-        :param payload: 收获地址参数
+        添加收货地址
+        :param payload: 请求参数
         :return:
         """
         method = 'post'
         url = self.url + '/member/address/add'
         return SendMethod.send_method(method=method, url=url, json=payload, headers=self.headers)
+
+    def member_address_list(self):
+        """
+        显示收货地址列表
+        :param payload: 请求参数
+        :return:
+        """
+        method = 'get'
+        url = self.url + '/member/address/list'
+
+        return SendMethod.send_method(method=method, url=url, headers=self.headers)
+
+
+    def member_address_update(self,id, payload):
+        """
+        根据id修改收货地址
+        :param payload: 请求参数
+        :return:
+        """
+        method = 'post'
+        url = self.url + '/member/address/update/'+f'{id}'
+        return SendMethod.send_method(method=method, url=url, json=payload, headers=self.headers)
+
+    def member_address_delete(self,id):
+        """
+        根据id删除收货地址
+        :param payload: 请求参数
+        :return:
+        """
+        method = 'post'
+        url = self.url + '/member/address/delete/'+f'{id}'
+        return SendMethod.send_method(method=method, url=url, headers=self.headers)
+
+
+    def member_address_id(self,id):
+        """
+        根据id显示收货地址信息
+        :param payload: 请求参数
+        :return:
+        """
+        method = 'get'
+        url = self.url + '/member/address/'+f'{id}'
+        return SendMethod.send_method(method=method, url=url, headers=self.headers)
+
 
     def get_address_list(self):
         """
@@ -32,20 +77,23 @@ class AddressInterface:
         url = self.url + '/member/address/list'
         return SendMethod.send_method(method=method, url=url, headers=self.headers)
 
-
 if __name__ == '__main__':
-    addr = AddressInterface()
-    payload = {
-        "city": "成都",
-        "defaultStatus": 0,
-        "detailAddress": "武侯祠",
-        "id": 0,
-        "memberId": 0,  # 通过token登录获取
-        "name": "诸葛亮",
-        "phoneNumber": "13822223333",
-        "postCode": "610000",
-        "province": "四川省",
-        "region": "武侯区"
-    }
-    # print(addr.add_address(payload))
-    print(addr.get_address_list())
+     addr=AddressInterface()
+     payload={
+             "city": "成都市",
+             "defaultStatus": 0,
+             "detailAddress": "天府新谷",
+             "id": 0,
+             "memberId": 146,
+             "name": "qyyo",
+             "phoneNumber": "13370004002",
+             "postCode": "654321",
+             "province": "四川省",
+             "region": "武侯区"
+         }
+
+     print(addr.add_address(payload))  #添加收货地址
+     #print(addr.member_address_list()) #显示收货地址列表
+     #print(addr.member_address_update(100,payload))  #根据id修改收货地址
+     #print(addr.member_address_delete(68))  # 根据id删除收货地址
+     print(addr.member_address_id(100)) #根据id显示收货地址
