@@ -5,7 +5,7 @@
 import allure
 import pytest
 from Interface.MemberInterface import MemberInterface
-from Interface.CartInterface import CartInterface
+from Interface.CartInterface import Cart
 from Interface.ReturnOrderInterface import ReturnOrderInterface
 from Interface.AddressInterface import AddressInterface
 from Utils.Database import Database
@@ -49,7 +49,7 @@ def test_return_order():
         "productSubTitle": "骁龙845处理器，红外人脸解锁，AI变焦双摄，AI语音助手小米6X低至1299，点击抢购",
         "quantity": 1  # 购买数量
     }
-    cart = CartInterface()
+    cart = Cart()
     cart_result = cart.add_cart(cart_payload)  # 执行添加购物车接口
     cart_code = GetKeyword.get_keyword(cart_result, 'code')  # 获取添加购物车接口返回开发自检字段
     pytest.assume(cart_code == 200)  # 断言开发自检字段 code

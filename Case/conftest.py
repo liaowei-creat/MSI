@@ -96,7 +96,7 @@ def home():
 
 
 # 获取首页列表测试数据
-subject_list = OperationData('subject_list.csv').get_data_dict()
+subject_list = OperationData('subject_list.csv').get_data_to_dict()
 
 
 @pytest.fixture(params=subject_list)
