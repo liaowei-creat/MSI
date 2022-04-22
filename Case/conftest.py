@@ -9,6 +9,8 @@ from Interface.HomeInterface import HomeInterface
 from Interface.CollectionInterface import CollectonInterface
 from Interface.AttentionInterface import AttentionInterface
 from Interface.AddressInterface import AddressInterface
+from Interface.HistoryInterface import HistoryInterface
+from Interface.OrderInterface import OrderInterface
 # 1. 添加登录模块fixture
 # 实例化登录模块
 
@@ -131,7 +133,19 @@ def attention():
     :return: 返回AddressInterface实例化对象
     """
     return AttentionInterface()
-
+@pytest.fixture()
+def history():
+    """
+    :return: 返回HistoryInterface实例化对象
+    """
+    return HistoryInterface()
+@pytest.fixture()
+def order():
+    """
+    :return: 返回OrderInterface实例化对象
+    """
+    return OrderInterface()	
+	
 
 
 
