@@ -1,0 +1,361 @@
+[ {
+  "uid" : "e1674bc9e1a613b3",
+  "name" : "获取购物车列表",
+  "time" : {
+    "start" : 1650599116138,
+    "stop" : 1650599116354,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b3bc052a9651c15",
+  "name" : "用户登录_密码错误",
+  "time" : {
+    "start" : 1650599127260,
+    "stop" : 1650599127472,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cc55a33a2a5e07ac",
+  "name" : "收货地址列表",
+  "time" : {
+    "start" : 1650599112239,
+    "stop" : 1650599112596,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b09314c49634ff12",
+  "name" : "修改收货地址",
+  "time" : {
+    "start" : 1650599112805,
+    "stop" : 1650599113186,
+    "duration" : 381
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9861bd9eb4415f98",
+  "name" : "添加会员关注品牌",
+  "time" : {
+    "start" : 1650599114496,
+    "stop" : 1650599114688,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f1a6b406d3a19136",
+  "name" : "删除购物车中不存在的商品",
+  "time" : {
+    "start" : 1650599118107,
+    "stop" : 1650599118474,
+    "duration" : 367
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "83c1c70dc0b45f20",
+  "name" : "id查询收货地址",
+  "time" : {
+    "start" : 1650599113903,
+    "stop" : 1650599114315,
+    "duration" : 412
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "632716aa293732b2",
+  "name" : "会员关注品牌列表",
+  "time" : {
+    "start" : 1650599114877,
+    "stop" : 1650599115068,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d8c55579d47cc997",
+  "name" : "分页获取推荐商品_正确数据",
+  "time" : {
+    "start" : 1650599126485,
+    "stop" : 1650599126703,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "27ac331431c1bda0",
+  "name" : "取消会员关注品牌",
+  "time" : {
+    "start" : 1650599115259,
+    "stop" : 1650599115424,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "750bfba91f9c55e0",
+  "name" : "用户登录_用户名错误",
+  "time" : {
+    "start" : 1650599127087,
+    "stop" : 1650599127256,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f273d6d7ba36da8a",
+  "name" : "删除浏览记录_正确数据",
+  "time" : {
+    "start" : 1650599125330,
+    "stop" : 1650599125505,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c47a7e591eb834f9",
+  "name" : "清空购物车_正确数据",
+  "time" : {
+    "start" : 1650599118659,
+    "stop" : 1650599119134,
+    "duration" : 475
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b180754a4ffc31a8",
+  "name" : "验证修改密码接口",
+  "time" : {
+    "start" : 1650599127848,
+    "stop" : 1650599128110,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "606262d9c6ddd602",
+  "name" : "验证修改密码接口",
+  "time" : {
+    "start" : 1650599127586,
+    "stop" : 1650599127841,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5d006ea09b359465",
+  "name" : "用户登录_正确数据",
+  "time" : {
+    "start" : 1650599126872,
+    "stop" : 1650599127081,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c60104f37ab741c0",
+  "name" : "创建浏览记录_正确数据",
+  "time" : {
+    "start" : 1650599124973,
+    "stop" : 1650599125143,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8329b3abf265b82",
+  "name" : "添加商品到购物车_正确数据",
+  "time" : {
+    "start" : 1650599115619,
+    "stop" : 1650599115946,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9010752d596848be",
+  "name" : "取消会员收藏",
+  "time" : {
+    "start" : 1650599120082,
+    "stop" : 1650599120239,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9f9d3ca8515d6896",
+  "name" : "添加收货地址",
+  "time" : {
+    "start" : 1650599111695,
+    "stop" : 1650599112055,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b0b4052a5c0df04d",
+  "name" : "获取首页商品分类_错误数据",
+  "time" : {
+    "start" : 1650599126282,
+    "stop" : 1650599126451,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "af2c11e174198cf0",
+  "name" : "添加会员收藏",
+  "time" : {
+    "start" : 1650599119326,
+    "stop" : 1650599119515,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c88108f1e77b077e",
+  "name" : "首页内容页信息展示_正确数据",
+  "time" : {
+    "start" : 1650599125873,
+    "stop" : 1650599126276,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5c70c47322c4aef7",
+  "name" : "会员收藏列表",
+  "time" : {
+    "start" : 1650599119705,
+    "stop" : 1650599119898,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "46aa600376dda724",
+  "name" : "优惠券的添加和使用",
+  "time" : {
+    "start" : 1650599120246,
+    "stop" : 1650599124781,
+    "duration" : 4535
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fe3aada622aad479",
+  "name" : "分类获取专题_正确数据",
+  "time" : {
+    "start" : 1650599126710,
+    "stop" : 1650599126864,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a1c9646a8fd1cfd9",
+  "name" : "展示浏览记录_正确数据",
+  "time" : {
+    "start" : 1650599125689,
+    "stop" : 1650599125868,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e5d631f2d6e7a15",
+  "name" : "删除收货地址",
+  "time" : {
+    "start" : 1650599113379,
+    "stop" : 1650599113719,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "65aca613f4fba8cd",
+  "name" : "支付成功的回调_正确数据",
+  "time" : {
+    "start" : 1650599130025,
+    "stop" : 1650599130575,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac7cf3d157ebefd",
+  "name" : "获取会员的购物车列表_正确数据",
+  "time" : {
+    "start" : 1650599117109,
+    "stop" : 1650599117387,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d40dcac59d85bc80",
+  "name" : "获取验证码_功能验证",
+  "time" : {
+    "start" : 1650599127480,
+    "stop" : 1650599127579,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c84651da846a2ac7",
+  "name" : "根据购物车信息生成确认单信息_正确数据",
+  "time" : {
+    "start" : 1650599128298,
+    "stop" : 1650599128725,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abec32535904c8c9",
+  "name" : "修改商品属性中的风格为夏季",
+  "time" : {
+    "start" : 1650599117581,
+    "stop" : 1650599117921,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1b859b2aa28a9ab2",
+  "name" : "根据购物车信息生成订单_正确数据",
+  "time" : {
+    "start" : 1650599128912,
+    "stop" : 1650599129830,
+    "duration" : 918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46dcc982f89873e0",
+  "name" : "修改购物车中商品的数量_正确数据",
+  "time" : {
+    "start" : 1650599116546,
+    "stop" : 1650599116915,
+    "duration" : 369
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "60231d864ec99aaa",
+  "name" : "申请退货流程",
+  "time" : {
+    "start" : 1650599130580,
+    "stop" : 1650599133038,
+    "duration" : 2458
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

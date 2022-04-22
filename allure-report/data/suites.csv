@@ -1,0 +1,67 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 22 11:45:30 CST 2022","Fri Apr 22 11:45:30 CST 2022","550","Case","test_order_pytest","","","","支付成功的回调_正确数据","
+    支付成功的回调
+    :param order:
+    :param payload:
+    :return:
+    "
+"passed","Fri Apr 22 11:45:15 CST 2022","Fri Apr 22 11:45:15 CST 2022","327","Case","test_cart","","","","添加商品到购物车_正确数据","添加商品到购物车测试"
+"passed","Fri Apr 22 11:45:17 CST 2022","Fri Apr 22 11:45:17 CST 2022","278","Case","test_cart","","","","获取会员的购物车列表_正确数据","获取购物车中某个商品的规格"
+"passed","Fri Apr 22 11:45:13 CST 2022","Fri Apr 22 11:45:13 CST 2022","340","Case","test_address","","","","删除收货地址",""
+"passed","Fri Apr 22 11:45:28 CST 2022","Fri Apr 22 11:45:28 CST 2022","427","Case","test_order_pytest","","","","根据购物车信息生成确认单信息_正确数据","
+    根据购物车信息生成确认单信息
+    :param order:
+    :param payload:
+    :return:
+    "
+"passed","Fri Apr 22 11:45:20 CST 2022","Fri Apr 22 11:45:24 CST 2022","4535","Case","test_coupon_flow","","","","优惠券的添加和使用","使用优惠券购物下单流程"
+"passed","Fri Apr 22 11:45:19 CST 2022","Fri Apr 22 11:45:19 CST 2022","193","Case","test_collection","","","","会员收藏列表",""
+"passed","Fri Apr 22 11:45:27 CST 2022","Fri Apr 22 11:45:27 CST 2022","99","Case","test_login","","","","获取验证码_功能验证",""
+"passed","Fri Apr 22 11:45:14 CST 2022","Fri Apr 22 11:45:15 CST 2022","191","Case","test_attention","","","","会员关注品牌列表",""
+"passed","Fri Apr 22 11:45:26 CST 2022","Fri Apr 22 11:45:26 CST 2022","154","Case","test_homepage","","","","分类获取专题_正确数据","分类获取专题"
+"passed","Fri Apr 22 11:45:15 CST 2022","Fri Apr 22 11:45:15 CST 2022","165","Case","test_attention","","","","取消会员关注品牌",""
+"passed","Fri Apr 22 11:45:30 CST 2022","Fri Apr 22 11:45:33 CST 2022","2458","Case","test_return_order","","","","申请退货流程","申请退货流程"
+"passed","Fri Apr 22 11:45:28 CST 2022","Fri Apr 22 11:45:29 CST 2022","918","Case","test_order_pytest","","","","根据购物车信息生成订单_正确数据","
+    根据购物车信息生成订单
+    :param order:
+    :param payload:
+    :return:
+    "
+"passed","Fri Apr 22 11:45:13 CST 2022","Fri Apr 22 11:45:14 CST 2022","412","Case","test_address","","","","id查询收货地址",""
+"passed","Fri Apr 22 11:45:12 CST 2022","Fri Apr 22 11:45:13 CST 2022","381","Case","test_address","","","","修改收货地址",""
+"passed","Fri Apr 22 11:45:17 CST 2022","Fri Apr 22 11:45:17 CST 2022","340","Case","test_cart","","","","修改商品属性中的风格为夏季",""
+"passed","Fri Apr 22 11:45:16 CST 2022","Fri Apr 22 11:45:16 CST 2022","369","Case","test_cart","","","","修改购物车中商品的数量_正确数据","修改购物车中某个商品的数量"
+"passed","Fri Apr 22 11:45:24 CST 2022","Fri Apr 22 11:45:25 CST 2022","170","Case","test_history_pytest","","","","创建浏览记录_正确数据","
+    创建浏览记录测试用例
+    :param order:
+    :param payload:
+    :return:
+    "
+"passed","Fri Apr 22 11:45:27 CST 2022","Fri Apr 22 11:45:28 CST 2022","262","Case","test_login","","","","验证修改密码接口",""
+"passed","Fri Apr 22 11:45:27 CST 2022","Fri Apr 22 11:45:27 CST 2022","255","Case","test_login","","","","验证修改密码接口",""
+"passed","Fri Apr 22 11:45:27 CST 2022","Fri Apr 22 11:45:27 CST 2022","169","Case","test_login","","","","用户登录_用户名错误",""
+"passed","Fri Apr 22 11:45:12 CST 2022","Fri Apr 22 11:45:12 CST 2022","357","Case","test_address","","","","收货地址列表",""
+"passed","Fri Apr 22 11:45:27 CST 2022","Fri Apr 22 11:45:27 CST 2022","212","Case","test_login","","","","用户登录_密码错误",""
+"passed","Fri Apr 22 11:45:26 CST 2022","Fri Apr 22 11:45:27 CST 2022","209","Case","test_login","","","","用户登录_正确数据",""
+"passed","Fri Apr 22 11:45:25 CST 2022","Fri Apr 22 11:45:25 CST 2022","179","Case","test_history_pytest","","","","展示浏览记录_正确数据","
+    展示浏览记录测试用例
+    :param order:
+    :param payload:
+    :return:
+    "
+"passed","Fri Apr 22 11:45:26 CST 2022","Fri Apr 22 11:45:26 CST 2022","218","Case","test_homepage","","","","分页获取推荐商品_正确数据",""
+"passed","Fri Apr 22 11:45:20 CST 2022","Fri Apr 22 11:45:20 CST 2022","157","Case","test_collection","","","","取消会员收藏",""
+"passed","Fri Apr 22 11:45:14 CST 2022","Fri Apr 22 11:45:14 CST 2022","192","Case","test_attention","","","","添加会员关注品牌",""
+"passed","Fri Apr 22 11:45:16 CST 2022","Fri Apr 22 11:45:16 CST 2022","216","Case","test_cart","","","","获取购物车列表","获取购物车列表测试"
+"passed","Fri Apr 22 11:45:18 CST 2022","Fri Apr 22 11:45:19 CST 2022","475","Case","test_cart","","","","清空购物车_正确数据","清空购物车"
+"passed","Fri Apr 22 11:45:25 CST 2022","Fri Apr 22 11:45:26 CST 2022","403","Case","test_homepage","","","","首页内容页信息展示_正确数据",""
+"passed","Fri Apr 22 11:45:18 CST 2022","Fri Apr 22 11:45:18 CST 2022","367","Case","test_cart","","","","删除购物车中不存在的商品","删除购物车中的某个商品"
+"passed","Fri Apr 22 11:45:19 CST 2022","Fri Apr 22 11:45:19 CST 2022","189","Case","test_collection","","","","添加会员收藏",""
+"passed","Fri Apr 22 11:45:11 CST 2022","Fri Apr 22 11:45:12 CST 2022","360","Case","test_address","","","","添加收货地址",""
+"passed","Fri Apr 22 11:45:25 CST 2022","Fri Apr 22 11:45:25 CST 2022","175","Case","test_history_pytest","","","","删除浏览记录_正确数据","
+    删除浏览记录测试用例
+    :param order:
+    :param payload:
+    :return:
+    "
+"passed","Fri Apr 22 11:45:26 CST 2022","Fri Apr 22 11:45:26 CST 2022","169","Case","test_homepage","","","","获取首页商品分类_错误数据",""

@@ -1,0 +1,645 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "收货地址",
+    "children" : [ {
+      "name" : "添加收货地址",
+      "children" : [ {
+        "name" : "添加收货地址",
+        "uid" : "9f9d3ca8515d6896",
+        "parentUid" : "76251ff8e921f0405b37187053f5a5d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599111695,
+          "stop" : 1650599112055,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76251ff8e921f0405b37187053f5a5d8"
+    }, {
+      "name" : "查询用户收货地址列表",
+      "children" : [ {
+        "name" : "收货地址列表",
+        "uid" : "cc55a33a2a5e07ac",
+        "parentUid" : "99fc1c027000481d0ecd472c34d60636",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599112239,
+          "stop" : 1650599112596,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99fc1c027000481d0ecd472c34d60636"
+    }, {
+      "name" : "根据id修改收货地址",
+      "children" : [ {
+        "name" : "修改收货地址",
+        "uid" : "b09314c49634ff12",
+        "parentUid" : "eb2e1d7898c31a1d179dc915d98653d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599112805,
+          "stop" : 1650599113186,
+          "duration" : 381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb2e1d7898c31a1d179dc915d98653d5"
+    }, {
+      "name" : "根据id删除收货地址",
+      "children" : [ {
+        "name" : "删除收货地址",
+        "uid" : "4e5d631f2d6e7a15",
+        "parentUid" : "5cb68ad3b7d638552d461c979dd0b485",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599113379,
+          "stop" : 1650599113719,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cb68ad3b7d638552d461c979dd0b485"
+    }, {
+      "name" : "根据id查询收货地址",
+      "children" : [ {
+        "name" : "id查询收货地址",
+        "uid" : "83c1c70dc0b45f20",
+        "parentUid" : "f6973ea31b3ea93b3ffeb2c385fe6c83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599113903,
+          "stop" : 1650599114315,
+          "duration" : 412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6973ea31b3ea93b3ffeb2c385fe6c83"
+    } ],
+    "uid" : "3fa385041af1385dd11248293a554c64"
+  }, {
+    "name" : "会员关注品牌",
+    "children" : [ {
+      "name" : "添加会员关注品牌",
+      "children" : [ {
+        "name" : "添加会员关注品牌",
+        "uid" : "9861bd9eb4415f98",
+        "parentUid" : "6c7a92d7318b6fa1c628a149d914ddc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599114496,
+          "stop" : 1650599114688,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c7a92d7318b6fa1c628a149d914ddc3"
+    }, {
+      "name" : "查询会员关注品牌列表",
+      "children" : [ {
+        "name" : "会员关注品牌列表",
+        "uid" : "632716aa293732b2",
+        "parentUid" : "7fbf25fdbe91718457d452275ab109c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599114877,
+          "stop" : 1650599115068,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fbf25fdbe91718457d452275ab109c1"
+    }, {
+      "name" : "取消会员关注品牌",
+      "children" : [ {
+        "name" : "取消会员关注品牌",
+        "uid" : "27ac331431c1bda0",
+        "parentUid" : "2585a8597dd34b3c3aa03e49fc2b65d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599115259,
+          "stop" : 1650599115424,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2585a8597dd34b3c3aa03e49fc2b65d2"
+    } ],
+    "uid" : "b109f468182a3a9914197b72c9c8a9ae"
+  }, {
+    "name" : "购物车",
+    "children" : [ {
+      "name" : "添加商品到购物车",
+      "children" : [ {
+        "name" : "添加商品到购物车_正确数据",
+        "uid" : "8329b3abf265b82",
+        "parentUid" : "393a9d10d41d4918232c08bc4c818cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599115619,
+          "stop" : 1650599115946,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "393a9d10d41d4918232c08bc4c818cc7"
+    }, {
+      "name" : "获取会员购物车列表",
+      "children" : [ {
+        "name" : "获取购物车列表",
+        "uid" : "e1674bc9e1a613b3",
+        "parentUid" : "1e772b72a3600b25ddfe15992e4fd6be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599116138,
+          "stop" : 1650599116354,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e772b72a3600b25ddfe15992e4fd6be"
+    }, {
+      "name" : "修改购物车中商品的数量",
+      "children" : [ {
+        "name" : "修改购物车中商品的数量_正确数据",
+        "uid" : "46dcc982f89873e0",
+        "parentUid" : "d5e67d76791527e44eb4f2501f74c7da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599116546,
+          "stop" : 1650599116915,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5e67d76791527e44eb4f2501f74c7da"
+    }, {
+      "name" : "获取某个会员的购物车列表,包括促销信息",
+      "children" : [ {
+        "name" : "获取会员的购物车列表_正确数据",
+        "uid" : "ac7cf3d157ebefd",
+        "parentUid" : "1f7f684fb54c4b456da1bbc8d6cee3b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599117109,
+          "stop" : 1650599117387,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f7f684fb54c4b456da1bbc8d6cee3b3"
+    }, {
+      "name" : "修改购物车中商品的规格",
+      "children" : [ {
+        "name" : "修改商品属性中的风格为夏季",
+        "uid" : "abec32535904c8c9",
+        "parentUid" : "15b7097c2d57562afb163789a7f027b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599117581,
+          "stop" : 1650599117921,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15b7097c2d57562afb163789a7f027b6"
+    }, {
+      "name" : "删除购物车商品",
+      "children" : [ {
+        "name" : "删除购物车中不存在的商品",
+        "uid" : "f1a6b406d3a19136",
+        "parentUid" : "9e2b76e3e6ddbc661bcba7f8f61d506f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599118107,
+          "stop" : 1650599118474,
+          "duration" : 367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e2b76e3e6ddbc661bcba7f8f61d506f"
+    }, {
+      "name" : "清空购物车",
+      "children" : [ {
+        "name" : "清空购物车_正确数据",
+        "uid" : "c47a7e591eb834f9",
+        "parentUid" : "b653bf92fcecfb7a4059237aac61eb66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599118659,
+          "stop" : 1650599119134,
+          "duration" : 475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b653bf92fcecfb7a4059237aac61eb66"
+    } ],
+    "uid" : "fd6d25784051c66cfc790b8ab183cbee"
+  }, {
+    "name" : "会员收藏",
+    "children" : [ {
+      "name" : "添加会员收藏",
+      "children" : [ {
+        "name" : "添加会员收藏",
+        "uid" : "af2c11e174198cf0",
+        "parentUid" : "1c30803f28edfd92edf303518fe04c98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599119326,
+          "stop" : 1650599119515,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c30803f28edfd92edf303518fe04c98"
+    }, {
+      "name" : "查询会员收藏列表",
+      "children" : [ {
+        "name" : "会员收藏列表",
+        "uid" : "5c70c47322c4aef7",
+        "parentUid" : "945bf8f4ef10fec1717728300b8ec52b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599119705,
+          "stop" : 1650599119898,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "945bf8f4ef10fec1717728300b8ec52b"
+    }, {
+      "name" : "取消会员收藏",
+      "children" : [ {
+        "name" : "取消会员收藏",
+        "uid" : "9010752d596848be",
+        "parentUid" : "31be85e57164d8e11700d612cc31d317",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599120082,
+          "stop" : 1650599120239,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31be85e57164d8e11700d612cc31d317"
+    } ],
+    "uid" : "30843572aee2b477fa9cc5e009007a4f"
+  }, {
+    "name" : "优惠券",
+    "children" : [ {
+      "name" : "优惠券",
+      "children" : [ {
+        "name" : "优惠券的添加和使用",
+        "uid" : "46aa600376dda724",
+        "parentUid" : "fa1a7b01f9744afed26e2aac15058e4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599120246,
+          "stop" : 1650599124781,
+          "duration" : 4535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa1a7b01f9744afed26e2aac15058e4a"
+    } ],
+    "uid" : "4f645476eb5d144f30f3e8a19809022d"
+  }, {
+    "name" : "会员商品浏览记录管理",
+    "children" : [ {
+      "name" : "创建浏览记录",
+      "children" : [ {
+        "name" : "创建浏览记录_正确数据",
+        "uid" : "c60104f37ab741c0",
+        "parentUid" : "ced732efc98f2acfed20ba22fbd7140c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599124973,
+          "stop" : 1650599125143,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ced732efc98f2acfed20ba22fbd7140c"
+    }, {
+      "name" : "删除浏览记录",
+      "children" : [ {
+        "name" : "删除浏览记录_正确数据",
+        "uid" : "f273d6d7ba36da8a",
+        "parentUid" : "82b78d96027f458a7dee72b8cade8a9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599125330,
+          "stop" : 1650599125505,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82b78d96027f458a7dee72b8cade8a9c"
+    }, {
+      "name" : "展示浏览记录",
+      "children" : [ {
+        "name" : "展示浏览记录_正确数据",
+        "uid" : "a1c9646a8fd1cfd9",
+        "parentUid" : "4cc7abc776cd8db80782dd5c784aba72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599125689,
+          "stop" : 1650599125868,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cc7abc776cd8db80782dd5c784aba72"
+    } ],
+    "uid" : "46d0013ee2785ec059639ee9e5ec5db2"
+  }, {
+    "name" : "首页",
+    "children" : [ {
+      "name" : "首页内容页信息展示",
+      "children" : [ {
+        "name" : "首页内容页信息展示_正确数据",
+        "uid" : "c88108f1e77b077e",
+        "parentUid" : "8ce969a345e4fe3ce903d59e3e979618",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599125873,
+          "stop" : 1650599126276,
+          "duration" : 403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ce969a345e4fe3ce903d59e3e979618"
+    }, {
+      "name" : "获取首页商品分类",
+      "children" : [ {
+        "name" : "获取首页商品分类_错误数据",
+        "uid" : "b0b4052a5c0df04d",
+        "parentUid" : "68c4805d2cc77b62b9238dc5ca445600",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599126282,
+          "stop" : 1650599126451,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68c4805d2cc77b62b9238dc5ca445600"
+    }, {
+      "name" : "分页获取推荐商品",
+      "children" : [ {
+        "name" : "分页获取推荐商品_正确数据",
+        "uid" : "d8c55579d47cc997",
+        "parentUid" : "3deca5662535d83a86cb4212bb9e1e86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599126485,
+          "stop" : 1650599126703,
+          "duration" : 218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3deca5662535d83a86cb4212bb9e1e86"
+    }, {
+      "name" : "分类获取专题",
+      "children" : [ {
+        "name" : "分类获取专题_正确数据",
+        "uid" : "fe3aada622aad479",
+        "parentUid" : "6278ccb979141680a9f19a3ed0b2abca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599126710,
+          "stop" : 1650599126864,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cateId': 2, 'pageSize': 4, 'pageNum': 1, 'expected': 200, 'comments': '分类获取专题_正确数据'}" ]
+      } ],
+      "uid" : "6278ccb979141680a9f19a3ed0b2abca"
+    } ],
+    "uid" : "eaa2a198f4e7a200ae4212d088e65135"
+  }, {
+    "name" : "登录",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "用户登录_正确数据",
+        "uid" : "5d006ea09b359465",
+        "parentUid" : "9536ade95b91df65f2bc1742e8478ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599126872,
+          "stop" : 1650599127081,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '诸葛亮', 'password': 123456, 'expected': 200, 'comments': '用户登录_正确数据'}" ]
+      }, {
+        "name" : "用户登录_用户名错误",
+        "uid" : "750bfba91f9c55e0",
+        "parentUid" : "9536ade95b91df65f2bc1742e8478ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599127087,
+          "stop" : 1650599127256,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '周瑜', 'password': 123456, 'expected': 404, 'comments': '用户登录_用户名错误'}" ]
+      }, {
+        "name" : "用户登录_密码错误",
+        "uid" : "b3bc052a9651c15",
+        "parentUid" : "9536ade95b91df65f2bc1742e8478ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599127260,
+          "stop" : 1650599127472,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '诸葛亮', 'password': 2345, 'expected': 404, 'comments': '用户登录_密码错误'}" ]
+      } ],
+      "uid" : "9536ade95b91df65f2bc1742e8478ce4"
+    }, {
+      "name" : "获取验证码",
+      "children" : [ {
+        "name" : "获取验证码_功能验证",
+        "uid" : "d40dcac59d85bc80",
+        "parentUid" : "413d91bd8f850955144d101e827ae6e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599127480,
+          "stop" : 1650599127579,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'telephone': 13267757457, 'expected': 200, 'comments': '获取验证码_功能验证'}" ]
+      } ],
+      "uid" : "413d91bd8f850955144d101e827ae6e4"
+    }, {
+      "name" : "修改密码",
+      "children" : [ {
+        "name" : "验证修改密码接口",
+        "uid" : "606262d9c6ddd602",
+        "parentUid" : "bd32f3e9d3c5e758a221af6d31e1229d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599127586,
+          "stop" : 1650599127841,
+          "duration" : 255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'telephone': 13370004000, 'password': 123456, 'expected': 200, 'comments': '修改密码_正确数据'}" ]
+      }, {
+        "name" : "验证修改密码接口",
+        "uid" : "b180754a4ffc31a8",
+        "parentUid" : "bd32f3e9d3c5e758a221af6d31e1229d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599127848,
+          "stop" : 1650599128110,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'telephone': 13879797987, 'password': 123456, 'expected': 500, 'comments': '修改密码_不存在的手机号'}" ]
+      } ],
+      "uid" : "bd32f3e9d3c5e758a221af6d31e1229d"
+    } ],
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+  }, {
+    "name" : "订单",
+    "children" : [ {
+      "name" : "根据购物车信息生成确认单信息",
+      "children" : [ {
+        "name" : "根据购物车信息生成确认单信息_正确数据",
+        "uid" : "c84651da846a2ac7",
+        "parentUid" : "bea29f287636c328a02c9e8f04cc4e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599128298,
+          "stop" : 1650599128725,
+          "duration" : 427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bea29f287636c328a02c9e8f04cc4e73"
+    }, {
+      "name" : "根据购物车信息生成订单",
+      "children" : [ {
+        "name" : "根据购物车信息生成订单_正确数据",
+        "uid" : "1b859b2aa28a9ab2",
+        "parentUid" : "ddf2230f537b6f63cb3a7fea11a87957",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599128912,
+          "stop" : 1650599129830,
+          "duration" : 918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddf2230f537b6f63cb3a7fea11a87957"
+    }, {
+      "name" : "支付成功的回调",
+      "children" : [ {
+        "name" : "支付成功的回调_正确数据",
+        "uid" : "65aca613f4fba8cd",
+        "parentUid" : "67bef38ed0701f15d4db097556bf3dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599130025,
+          "stop" : 1650599130575,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67bef38ed0701f15d4db097556bf3dcf"
+    } ],
+    "uid" : "d962578f1628fd121a6a499c1022f809"
+  }, {
+    "name" : "退货管理",
+    "children" : [ {
+      "name" : "申请退货",
+      "children" : [ {
+        "name" : "申请退货流程",
+        "uid" : "60231d864ec99aaa",
+        "parentUid" : "02f25e631bd7d374e198e171f4e07edd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650599130580,
+          "stop" : 1650599133038,
+          "duration" : 2458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02f25e631bd7d374e198e171f4e07edd"
+    } ],
+    "uid" : "aba91a4fa227fdccbb499d31a731b380"
+  } ]
+}
