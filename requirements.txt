@@ -1,6 +1,5 @@
 PyYAML
 requests
-pip3
 pytest
 allure-pytest
 time
