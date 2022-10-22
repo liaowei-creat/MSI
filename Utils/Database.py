@@ -2,14 +2,14 @@
 对pymysql进行二次封装 , 方便之后调用
 """
 # 导入pymysql
-import pymysql
+import psycopg2
 
 
 class Database(object):
-    def __init__(self, host="139.159.146.104", user="guest", password='123456', database='03_mall', charset='utf8',
-                 port=3306):
+    def __init__(self, host="1.15.46.232", user="postgres", password='password', database='postgres', charset='utf8',
+                 port=5432):
         # 创建连接对象
-        self.cnn = pymysql.connect(
+        self.cnn = psycopg2.connect(
             host=host,
             user=user,
             password=password,

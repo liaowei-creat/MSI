@@ -1,0 +1,59 @@
+#page,par_page,channel,locale,status,fulfillment_type
+order_data:
+  info:
+    - [1,25,'1','en','to_pay','delivery']
+    - [1,25,'1','en','to_receive','delivery']
+    - [1,25,'1','en','received','delivery']
+    - [1,25,'1','en','cancelled','delivery']
+    - [1,25,'1','en','closed','delivery']
+    - [1,25,'1','en','to_pay','self_pickup']
+    - [1,25,'1','en','to_receive','self_pickup']
+    - [1,25,'1','en','received','self_pickup']
+    - [1,25,'1','en','cancelled','self_pickup']
+    - [1,25,'1','en','closed','self_pickup']
+    - [1,25,'1','en','to_pay','voucher']
+    - [1,25,'1','en','to_receive','voucher']
+    - [1,25,'1','en','received','voucher']
+    - [1,25,'1','en','cancelled','voucher']
+    - [1,25,'1','en','closed','voucher']
+  ids:
+    - delivery to_pay
+    - delivery to_receive
+    - delivery received
+    - delivery cancelled
+    - delivery closed
+    - self_pickup to_pay
+    - self_pickup to_receive
+    - self_pickup received
+    - self_pickup cancelled
+    - self_pickup closed
+    - voucher to_pay
+    - voucher to_receive
+    - voucher received
+    - voucher cancelled
+    - voucher closed
+
+
+
+#order_id,channel,locale
+order_datail:
+  info:
+    - [1,'1','en']
+    - [1,'1','en']
+    - [1,'2','en']
+  ids:
+    - correct id
+    - invalid id
+    - another channel
+
+#order_id,channel,locale
+Unpaid:
+  info:
+    - [1,'1','en']
+    - [900,'2','en']
+  ids:
+    - correct id
+    - invalid id
+
+
+

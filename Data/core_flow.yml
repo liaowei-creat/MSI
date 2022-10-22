@@ -1,0 +1,9 @@
+#sign_in_type,email,password,token   channel, locale, cart_checkout, fulfillment, receive_info, voucher_ids, user_remarks,sellables
+sign:
+  - ['guest','','','','emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',True,['delivery','2022-09-30',1],['zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000'],[],'double sugar',[{
+            "sellable_id": 2,
+            "sellable_type": 'product_sku',
+            "bundle_id": 0,
+            "quantity": 1,
+            "preference_item_ids": []
+        }]]

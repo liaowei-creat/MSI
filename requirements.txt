@@ -1,0 +1,12 @@
+PyYAML
+requests
+pip
+pytest
+allure-pytest
+psycopg2
+paramiko
+time
+jsonpath
+numpy
+os
+json

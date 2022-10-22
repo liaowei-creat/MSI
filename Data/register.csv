@@ -1,3 +1,0 @@
-username,password,telephone,expected,comments
-曹操,123456,13879797987,200,用户注册_正确数据
-小乔,123456,13879797987,500,用户注册_已存在的用户

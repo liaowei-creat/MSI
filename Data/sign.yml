@@ -1,0 +1,17 @@
+#sign_in_type,email,password,token    response:status_code,email
+user:
+  - ['user','huyang@fooyo.sg','11111111','',200,'huyang@fooyo.sg']
+  - ['user','','11111111','',422,'Invalid Parameter']
+  - ['user','huyang@fooyo.sg','','',401,'Unauthorized']
+  - ['user','huyang@fooyo.sg','8个1','',401,'Unauthorized']
+  - ['user','huyang@fooyo.sg','11111111','token',200,'huyang@fooyo.sg']
+  - ['user','123@fooyo.sg','12345678','',401,'Unauthorized']
+  - ['guest','','','',200,'']
+ids:
+  - normal account
+  - missiog email
+  - missing password
+  - wrong password
+  - incoming token
+  - account that does not exist
+  - guest account
