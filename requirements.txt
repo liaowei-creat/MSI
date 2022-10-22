@@ -2,4 +2,3 @@ PyYAML
 requests
 pytest
 allure-pytest
-json
