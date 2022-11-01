@@ -1,9 +1,8 @@
 from msi_api.Apis.base_api import BaseApi
 
-class Quotation(BaseApi):
+class Promotion(BaseApi):
     # 请求询价
-    def request_quotation(self, token, channel, locale, cart_checkout, promotion_code, membership_name, fulfillment,
-                          receive_info, voucher_ids, sellables):
+    def request_quotation(self, token ,channel, locale, cart_checkout,promotion_code,membership_name, fulfillment, receive_info, voucher_ids,sellables):
         add_url = "/core/v1/orders/request_quotation"
         fulfill = {
             "fulfillment_method": fulfillment[0],
@@ -21,7 +20,7 @@ class Quotation(BaseApi):
         }
         param = {
             "cart_checkout": cart_checkout,
-            'promotion_code': promotion_code,
+            'promotion_code':promotion_code,
             'membership_name': membership_name,
             "sellables": sellables,
             "fulfillment": fulfill,
@@ -42,3 +41,4 @@ class Quotation(BaseApi):
         }
         res = self.send_api(req)
         return res
+

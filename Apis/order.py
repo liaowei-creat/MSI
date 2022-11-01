@@ -88,9 +88,11 @@ class Orders(BaseApi):
         }
         r_pay = self.send_api(req_pay)
         r_success = self.send_api(req_success)
-        r_detail = self.order_dateil(order_id,channel,locale,token)
-        return r_pay,r_success,r_detail
-
+        if r_pay.status_code == 200 & r_success.status_code == 200:
+            r_detail = self.order_dateil(order_id,channel,locale,token)
+            return r_detail
+        else:
+            return r_pay.json(),r_success.json()
     # #支付成功
     # def payment_success(self,order_id,channel,locale,token):
     #     payment_success = f'/order/v1/payments/{order_id}/notify_paid'
@@ -109,7 +111,7 @@ class Orders(BaseApi):
     #     return r
 
     #创建订单之后并且支付
-    def create_make_payment_order(self, token ,channel, locale, cart_checkout, fulfillment, receive_info, voucher_ids, user_remarks,sellables):
+    def create_make_payment_order(self, token ,channel, locale,cart_checkout,promotion_code,membership_name, fulfillment, receive_info, voucher_ids, user_remarks,sellables):
         # create_url = "/core/v1/orders/place_order"
         #
         # fulfill = {
@@ -147,7 +149,7 @@ class Orders(BaseApi):
         #     'json': param
         # }
         # res = self.send_api(req)
-        res = self.create_an_order(token ,channel, locale, cart_checkout, fulfillment, receive_info, voucher_ids, user_remarks,sellables)
+        res = self.create_an_order(token ,channel, locale, cart_checkout,promotion_code,membership_name, fulfillment, receive_info, voucher_ids, user_remarks,sellables)
         order_id = res.json()['data']['order']['id']
         mode = res.json()['data']['order']['payment_modes'][0]
         payment_id = res.json()['data']['order']['payments'][0]['id']
@@ -155,7 +157,7 @@ class Orders(BaseApi):
         return r
 
     #创建订单
-    def create_an_order(self, token ,channel, locale, cart_checkout, fulfillment, receive_info, voucher_ids, user_remarks,sellables):
+    def create_an_order(self, token ,channel, locale, cart_checkout,promotion_code,membership_name, fulfillment, receive_info, voucher_ids, user_remarks,sellables):
         create_url = "/core/v1/orders/place_order"
 
         #查询每个商品自己的sellable_id
@@ -182,6 +184,8 @@ class Orders(BaseApi):
         }
         param = {
             "cart_checkout": cart_checkout,
+            "promotion_code":promotion_code ,
+            "membership_name": membership_name,
             "sellables": sellables,
             "fulfillment": fulfill,
             "receiver_information": receiver_information,
