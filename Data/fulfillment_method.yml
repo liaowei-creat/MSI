@@ -1,0 +1,10 @@
+#channel,locale
+fulfillment_method:
+  fulfillment:
+    - ['chanel1','en']
+    - ['chanel2','en']
+  ids:
+    - one channel
+    - another channel
+
+

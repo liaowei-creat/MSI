@@ -1,0 +1,599 @@
+#channel, locale, cart_checkout,promotion_code,membership_name, fulfillment, receive_info, voucher_ids,sellables,execpect
+
+quotation_data:
+  info:
+    #1Buy 2 Monkey Doll, to get Zebra Badge at 20% off
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'T3002','',['delivery', '2022-11-5', 1],['zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000'],[],[{
+      "sellable_id": 144,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": []
+        },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],34.80]
+#    #2Buy 3 Elephant Keychain, to get Fox Dinner Plate at $5
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],30]
+#    #3Buy 2 Squirrel Doll, to get Kangaroo Doll at $2 off
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],44]
+    #4Buy 2 Zebre Badge, to get Giraffe Pillow for free
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],12]
+    #5Buy any 3 from the group Best Sellers, to get Fax Doll at $5
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C4401','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 144,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 163,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],43]
+    #6Buy any 4 from the group Best Sellers, to get Elephant Keychain at 20% 0ff
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C1213','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 144,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],47]
+    #7Buy any 5 from the group Best Sellers, to get Fox Dinner Plate at $2 off
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C5501','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 163,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],115]
+    #8Buy any 2 from the group Best Sellers, to get Weekend Bundle for free
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C2201','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": 6,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": 6,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],33]
+    #9Buy 3 Summer Bundle for $5 each
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": 8,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 152,
+      "sellable_type": 'product_sku',
+      "bundle_id": 8,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": 8,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    }],45]
+    #10Buy 2 Fox Doll  to get 10% off for each
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 163,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    }],59.4]
+    #11Buy 3 Fox Diner Plate to get $2 off for each item
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    }],129]
+    #12Buy 3 Squirrel Doll get any sellable in group Souvenir 20% off ，Conditions 20% off and 10% off are met
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 173,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    }],73.2]
+#    #13FOW member get 30% off all products
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','fow',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    }],36.6]
+    #14Buy 3 Giraffe pillow with preferrence Thickened,get %20 off each
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+       "sellable_id": 58,
+       "sellable_type": 'product_sku',
+       "bundle_id": ,
+       "quantity": 3,
+       "preference_item_ids": [ 39]
+     }],48 ]
+    #15 Different products meet different conditions
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    }],69]
+
+
+
+  ids:
+    - 1Buy 2 Monkey Doll, to get Zebra Badge at 20% off
+    - 2Buy 3 Elephant Keychain, to get Fox Dinner Plate at $5
+    - 3Buy 2 Squirrel Doll, to get Kangaroo Doll at $2 off
+    - 4Buy 2 Zebra Badge, to get Giraffe Pillow for free
+    - 5Buy any 3 from the group Best Sellers, to get Fax Doll at $5
+    - 6Buy any 4 from the group Best Sellers, to get Elephant Keychain at 20% 0ff
+    - 7Buy any 5 from the group Best Sellers, to get Fox Dinner Plate at $2 off
+    - 8Buy any 2 from the group Best Sellers, to get Weekend Bundle for free
+    - 9Buy 3 Summer Bundle for $5 each
+    - 10Buy 2 Fox Doll  to get 10% off for each
+    - 11Buy 3 Fox Diner Plate to get $2 off for each item
+    - 12Buy 3 Squirrel Doll get any sellable in group Souvenir 20% off ，Conditions 20% off and 10% off are met
+    - 13FOW member get 30% off all products
+    - 14Buy 3 Giraffe pillow with preferrence Thickened,get %20 off each
+    - 15Different products meet different conditions
+
+
+
+
+#channel, locale,promotion_code,membership_name, cart_checkout, fulfillment, receive_info, voucher_ids, user_remarks,sellables
+order_data:
+  info:
+    #1Buy 2 Monkey Doll, to get Zebra Badge at 20% off
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'T3002','',[ 'delivery', '2022-11-5', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 144,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],34.80 ]
+    #2Buy 3 Elephant Keychain, to get Fox Dinner Plate at $5
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],30 ]
+    #    #3Buy 2 Squirrel Doll, to get Kangaroo Doll at $2 off
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],44 ]
+    #4Buy 2 Zebre Badge, to get Giraffe Pillow for free
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],12 ]
+    #5Buy any 3 from the group Best Sellers, to get Fax Doll at $5
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C4401','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 144,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 163,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],43 ]
+    #6Buy any 4 from the group Best Sellers, to get Elephant Keychain at 20% 0ff
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C1213','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 144,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],47 ]
+    #7Buy any 5 from the group Best Sellers, to get Fox Dinner Plate at $2 off
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C5501','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 163,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],115 ]
+    #8Buy any 2 from the group Best Sellers, to get Weekend Bundle for free
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'C2201','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": 6,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 72,
+      "sellable_type": 'product_sku',
+      "bundle_id": 6,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],33 ]
+    #9Buy 3 Summer Bundle for $5 each
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": 8,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 152,
+      "sellable_type": 'product_sku',
+      "bundle_id": 8,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": 8,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    } ],45 ]
+    #10Buy 2 Fox Doll  to get 10% off for each
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 163,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    } ],59.4 ]
+    #11Buy 3 Fox Diner Plate to get $2 off for each item
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    } ],129 ]
+    #12Buy 3 Squirrel Doll get any sellable in group Souvenir 20% off ，Conditions 20% off and 10% off are met
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 173,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    } ],73.2 ]
+    #    #13FOW member get 30% off all products
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','fow',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    } ],36.6 ]
+    #14Buy 3 Giraffe pillow with preferrence Thickened,get %20 off each
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 58,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ 39 ]
+    } ],48 ]
+    #15 Different products meet different conditions
+    - [ 'emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',False,'','',[ 'delivery', '2022-10-30', 1 ],[ 'zhangsan','xx@11.com','152-2762-9383','address1','address2','adress3','610000' ],[ ],'double sugar',[ {
+      "sellable_id": 151,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 73,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 3,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 142,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 1,
+      "preference_item_ids": [ ]
+    },{
+      "sellable_id": 164,
+      "sellable_type": 'product_sku',
+      "bundle_id": ,
+      "quantity": 2,
+      "preference_item_ids": [ ]
+    } ],69 ]
+
+  ids:
+    - 1Buy 2 Monkey Doll, to get Zebra Badge at 20% off
+    - 2Buy 3 Elephant Keychain, to get Fox Dinner Plate at $5
+    - 3Buy 2 Squirrel Doll, to get Kangaroo Doll at $2 off
+    - 4Buy 2 Zebra Badge, to get Giraffe Pillow for free
+    - 5Buy any 3 from the group Best Sellers, to get Fax Doll at $5
+    - 6Buy any 4 from the group Best Sellers, to get Elephant Keychain at 20% 0ff
+    - 7Buy any 5 from the group Best Sellers, to get Fox Dinner Plate at $2 off
+    - 8Buy any 2 from the group Best Sellers, to get Weekend Bundle for free
+    - 9Buy 3 Summer Bundle for $5 each
+    - 10Buy 2 Fox Doll  to get 10% off for each
+    - 11Buy 3 Fox Diner Plate to get $2 off for each item
+    - 12Buy 3 Squirrel Doll get any sellable in group Souvenir 20% off ，Conditions 20% off and 10% off are met
+    - 13FOW member get 30% off all products
+    - 14Buy 3 Giraffe pillow with preferrence Thickened,get %20 off each
+    - 15Different products meet different conditions

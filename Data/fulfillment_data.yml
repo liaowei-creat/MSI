@@ -1,0 +1,26 @@
+#channel,locale,page,par_page,order_id,user_id,channel_id,redeemable_ids,redeemable_type,status
+
+fulfillment:
+  info:
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',1,25,1,1,1,1,'voucher','to_redeem']
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT','en',1,25,1,1,1,2,'voucher','redeemed']
+    - ['AoMCY1X0pGBLxM9Nopc55E3LEX29y8nJ','en',1,25,1,1,1,3,'voucher','expired']
+    - ['AoMCY1X0pGBLxM9Nopc55E3LEX29y8nJ','en',1,25,1,1,1,3,'redemption_coupon','to_redeem']
+    - ['AoMCY1X0pGBLxM9Nopc55E3LEX29y8nJ','en',1,25,1,1,1,3,'redemption_coupon','redeemed']
+    - ['AoMCY1X0pGBLxM9Nopc55E3LEX29y8nJ','en',1,25,1,1,1,3,'redemption_coupon','expired']
+  ids:
+    - voucher to_redeem
+    - voucher redeemed
+    - voucher expired
+    - redemption_coupon to_redeem
+    - redemption_coupon redeemed
+    - redemption_coupon expired
+
+
+
+
+
+
+
+
+

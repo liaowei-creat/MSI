@@ -1,0 +1,53 @@
+#channel,locale, require_user_cart, id, product_sku, quantity, preference_id
+create_cart_item:
+  add:
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'product_sku', 1, '']
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', Flase, 2, 'product_sku', 1, '']
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'product_sku', 1, 0]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'product_sku', 900, 1]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'voucher_sku', 1, 0]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', Flase, 2, 'voucher_sku', 1, 0]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'voucher_sku', 900, 0]
+  ids:
+    - product
+    - product(flase)
+    - product(no preference)
+    - product(over stock）
+    - voucher product
+    - voucher product(flase)
+    - voucher product(over stock)
+
+# channel,locale
+get_cart_item:
+  cart:
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en']
+    - ['9X1tR7uauolCRapFoU3GstlnyOjJr4Zi', 'en']
+  ids:
+    - one channel
+    - another channel
+
+
+
+
+#channel, locale,require_user_cart, id, product_sku,  quantity , preference_id, update_quantity,selected
+# channel,locale,quantity,selected,id
+update_cart_data:
+  cart:
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'product_sku', 1, '', 3, True]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI', 'en', True, 2, 'product_sku', 10, '', 2, True]
+    - ['1', 'en', -3, true, 1]
+    - ['1', 'en', 1, flase, 1]
+  ids:
+    - default
+    - invalid ID
+    - invalid parameter
+    - select(flase)
+
+#channel,locale,id
+delete_item:
+  info:
+    - ['pos','en',1]
+    - ['pos', 'en', 900]
+  ids:
+    - normal
+    - invalid id

@@ -1,0 +1,39 @@
+#channel,local,label,shop_id,include_sellables
+sellable_group:
+  info:
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT', 'en', 'Best Sellers', 1, 'true', 'Giraffe Pillow']
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT', 'en', 'Best Sellers', 1, 'false', '']
+
+
+  ids:
+    - include sellables
+    - exclude sellables
+
+#channel,local,id
+sellable_detail:
+  info:
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT', 'en', 1, 'Souvenir Bundle']
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT', 'en', 2, "Couldn't find SellableGroup with 'id'=2"]
+
+  ids:
+    - normal
+    - inactive
+
+#channel,local,name,navigation_group_type,expect
+navigation_group:
+  info:
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT', 'en', 'banner', 'banner', 'banner1']
+    - ['emTUvDH7IjEwY0QBqPLSotYCPceebKkT', 'en', 'Navigation', 'navigation_button', 'seafood']
+  ids:
+    - banner
+    - navigation
+
+#channel,local,id
+navigation_detail:
+  info:
+    - ['en', 5, 'seafood']
+    - ['en', 2, 'banner1']
+
+  ids:
+    - navigation
+    - banner

@@ -1,0 +1,76 @@
+#channel, locale, sellable_type, keyword, sort_by, page, per_page
+sellable:
+  sell:
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','product','','price_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','product','','price_desc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','product','','created_at_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','product','','created_at_desc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','voucher_product','','price_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','voucher_product','','price_desc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','voucher_product','','created_at_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','voucher_product','','created_at_desc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','bundle','','price_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','bundle','','price_desc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','bundle','','created_at_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','bundle','','created_at_desc',1,25]
+    - ['ezbIXnpqTg7Y18fPqelefATe4uEJocmm','en','product','','price_asc',1,25 ]
+    - ['ezbIXnpqTg7Y18fPqelefATe4uEJocmm','en','voucher_product','','price_asc',1,25]
+    - ['ezbIXnpqTg7Y18fPqelefATe4uEJocmm','en','bundle','','price_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','product','KFC','price_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','voucher_product','KFC','price_asc',1,25]
+    - ['anEExskQdLwOO481W5EvOFKtrzViLheI','en','bundle','KFC','price_asc',1,25]
+    - ['','en','bundle','KFC','price_asc',1,25]
+  ids:
+    - 默认(商品价格升序)
+    - 商品价格降序
+    - 商品创建时间升序
+    - 商品创建时间降序
+    - 优惠券商品升序
+    - 优惠券商品降序
+    - 优惠券商品创建时间升序
+    - 优惠券商品创建时间降序
+    - 套餐价格升序
+    - 套餐价格降序
+    - 套餐创建时间升序
+    - 套餐创建时间降序
+    - 不同渠道的商品
+    - 不同渠道的优惠券商品
+    - 不同渠道的套餐商品
+    - 搜索商品KFC
+    - 搜索优惠券商品KFC
+    - 搜索bundle商品KFC
+    - 不传channel
+#channel, locale, id
+product:
+  info:
+    - ['1','en',1]
+    - ['1','en',1]
+    - ['1','en',900]
+  ids:
+    - id为1
+    - 另一个渠道
+    - 不存在的id
+
+
+#channel, locale, id
+voucher_product:
+  info:
+    - ['1','en',1]
+    - ['1','en',1]
+    - ['1','en',900]
+  ids:
+    - id为1
+    - 另一个渠道
+    - 不存在的id
+
+
+#channel, locale, id
+bundles:
+  info:
+    - ['1','en',1]
+    - ['1','en',1]
+    - ['1','en',900]
+  ids:
+    - id为1
+    - 另一个渠道
+    - 不存在的id
